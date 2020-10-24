@@ -82,9 +82,7 @@ namespace TiendaServicios.Api.Libro.Tests
 
         [Fact]
         public async void GetLibros()
-        {
-            System.Diagnostics.Debugger.Launch();
-
+        {            
             var mockContexto = CrearContexto();
             var mapper = CrearMapper();
 

@@ -9,6 +9,7 @@ using System.Threading;
 using TiendaServicios.Api.Libro.Aplication;
 using TiendaServicios.Api.Libro.Infraestructure;
 using TiendaServicios.Api.Libro.Model;
+using TiendaServicios.RabbitMQ.Bus.BusRabbit;
 using Xunit;
 
 namespace TiendaServicios.Api.Libro.Tests
@@ -112,7 +113,7 @@ namespace TiendaServicios.Api.Libro.Tests
                 FechaPublicacion = DateTime.Now
             };
 
-            var manejador = new Nuevo.Manejador(contexto);
+            var manejador = new Nuevo.Manejador(contexto, new Mock<IRabbitEventBus>().Object);
 
             var libro = await manejador.Handle(request, new CancellationToken());
 

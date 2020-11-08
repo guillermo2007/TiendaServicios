@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Libro.T
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D27A901B-3BB3-49F2-AF82-040204183813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Gateway", "TiendaServicios.Api.Gateway\TiendaServicios.Api.Gateway.csproj", "{AC50DD15-124E-4926-B7A7-FD9EAFF90B1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Gateway", "TiendaServicios.Api.Gateway\TiendaServicios.Api.Gateway.csproj", "{AC50DD15-124E-4926-B7A7-FD9EAFF90B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.RabbitMQ.Bus", "TiendaServicios.RabbitMQ.Bus\TiendaServicios.RabbitMQ.Bus.csproj", "{98354710-9345-414F-B758-DE6773BAB790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.RabbitMQ.Bus", "TiendaServicios.RabbitMQ.Bus\TiendaServicios.RabbitMQ.Bus.csproj", "{98354710-9345-414F-B758-DE6773BAB790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Mensajeria.Email", "..\TiendaServicios.Mensajeria.Email\TiendaServicios.Mensajeria.Email.csproj", "{57E6971A-BB8B-4EE4-B66E-DFF99260FFDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{98354710-9345-414F-B758-DE6773BAB790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98354710-9345-414F-B758-DE6773BAB790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98354710-9345-414F-B758-DE6773BAB790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E6971A-BB8B-4EE4-B66E-DFF99260FFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E6971A-BB8B-4EE4-B66E-DFF99260FFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E6971A-BB8B-4EE4-B66E-DFF99260FFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E6971A-BB8B-4EE4-B66E-DFF99260FFDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
